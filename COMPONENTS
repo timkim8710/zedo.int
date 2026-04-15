@@ -1,0 +1,9 @@
+export default function Navbar() {
+  return (
+    <nav className="fixed bottom-0 w-full bg-white border-t p-4 flex justify-around">
+      <button>Feed</button>
+      <button>Chat</button>
+      <button>Profile</button>
+    </nav>
+  );
+}
